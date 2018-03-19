@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Please add a roomamte"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:text="Enter Name" />
+    <CheckBox
+        android:text="Has Pets"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ck_hasPets" />
+    <CheckBox
+        android:text="Has Kids"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ck_hasKids" />
+    <Button
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSubmit" />
+</LinearLayout>
