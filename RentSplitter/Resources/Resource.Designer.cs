@@ -457,7 +457,10 @@ namespace RentSplitter
 			public const int top = 2131296279;
 			
 			// aapt resource value: 0x7f09003c
-			public const int txtCounter = 2131296316;
+			public const int txtBillCounter = 2131296316;
+			
+			// aapt resource value: 0x7f09003f
+			public const int txtCounter = 2131296319;
 			
 			// aapt resource value: 0x7f09001d
 			public const int txtTitle = 2131296285;

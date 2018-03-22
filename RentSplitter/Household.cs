@@ -48,5 +48,10 @@ namespace RentSplitter {
             Roommates.Add(roommate);
             Console.WriteLine("\nRoommate added");
         }
+
+        public void AddBill(Bill bill) {
+            Bills.Add(bill);
+            Console.WriteLine("\nBill added");
+        }
     }
 }

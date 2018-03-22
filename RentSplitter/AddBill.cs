@@ -15,6 +15,7 @@ namespace RentSplitter {
 
     public class AddBill : Activity {
         Button btnSend;
+        Bill bill = new Bill();
         protected override void OnCreate(Bundle savedInstanceState) {
             base.OnCreate(savedInstanceState);
 
@@ -31,7 +32,7 @@ namespace RentSplitter {
         }
 
         void AddBillToHousehold() {
-
+            Household.Instance.AddBill(bill);
         }
     }
 }

@@ -11,7 +11,7 @@ using Android.Views;
 using Android.Widget;
 
 namespace RentSplitter {
-    class Bill {
+    public class Bill {
         private List<Roommate> responsibleRoomates;
         private string name;
         private float cost;
