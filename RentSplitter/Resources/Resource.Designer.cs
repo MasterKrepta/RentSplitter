@@ -279,20 +279,20 @@ namespace RentSplitter
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f090025
-			public const int action_container = 2131296293;
+			// aapt resource value: 0x7f09002b
+			public const int action_container = 2131296299;
 			
-			// aapt resource value: 0x7f090031
-			public const int action_divider = 2131296305;
+			// aapt resource value: 0x7f090037
+			public const int action_divider = 2131296311;
 			
-			// aapt resource value: 0x7f090026
-			public const int action_image = 2131296294;
+			// aapt resource value: 0x7f09002c
+			public const int action_image = 2131296300;
 			
-			// aapt resource value: 0x7f090027
-			public const int action_text = 2131296295;
+			// aapt resource value: 0x7f09002d
+			public const int action_text = 2131296301;
 			
-			// aapt resource value: 0x7f090032
-			public const int actions = 2131296306;
+			// aapt resource value: 0x7f090038
+			public const int actions = 2131296312;
 			
 			// aapt resource value: 0x7f090008
 			public const int alignBounds = 2131296264;
@@ -309,26 +309,29 @@ namespace RentSplitter
 			// aapt resource value: 0x7f09000a
 			public const int bottom = 2131296266;
 			
-			// aapt resource value: 0x7f090024
-			public const int btnAddNewBill = 2131296292;
+			// aapt resource value: 0x7f09002a
+			public const int btnAddNewBill = 2131296298;
 			
-			// aapt resource value: 0x7f090023
-			public const int btnAddRoommate = 2131296291;
+			// aapt resource value: 0x7f090029
+			public const int btnAddRoommate = 2131296297;
 			
-			// aapt resource value: 0x7f090037
-			public const int btnGoBack = 2131296311;
-			
-			// aapt resource value: 0x7f090020
-			public const int btnSendRoommate = 2131296288;
+			// aapt resource value: 0x7f09003d
+			public const int btnGoBack = 2131296317;
 			
 			// aapt resource value: 0x7f090022
-			public const int btnViewBills = 2131296290;
+			public const int btnSendBill = 2131296290;
 			
-			// aapt resource value: 0x7f090021
-			public const int btnViewRoommates = 2131296289;
+			// aapt resource value: 0x7f090026
+			public const int btnSendRoommate = 2131296294;
 			
-			// aapt resource value: 0x7f090035
-			public const int btn_Start = 2131296309;
+			// aapt resource value: 0x7f090028
+			public const int btnViewBills = 2131296296;
+			
+			// aapt resource value: 0x7f090027
+			public const int btnViewRoommates = 2131296295;
+			
+			// aapt resource value: 0x7f09003b
+			public const int btn_Start = 2131296315;
 			
 			// aapt resource value: 0x7f09000b
 			public const int center = 2131296267;
@@ -339,14 +342,20 @@ namespace RentSplitter
 			// aapt resource value: 0x7f09000d
 			public const int center_vertical = 2131296269;
 			
-			// aapt resource value: 0x7f090030
-			public const int chronometer = 2131296304;
+			// aapt resource value: 0x7f090036
+			public const int chronometer = 2131296310;
 			
-			// aapt resource value: 0x7f09001f
-			public const int ck_hasKids = 2131296287;
+			// aapt resource value: 0x7f090025
+			public const int ck_hasKids = 2131296293;
 			
-			// aapt resource value: 0x7f09001e
-			public const int ck_hasPets = 2131296286;
+			// aapt resource value: 0x7f090024
+			public const int ck_hasPets = 2131296292;
+			
+			// aapt resource value: 0x7f090020
+			public const int ck_roomate = 2131296288;
+			
+			// aapt resource value: 0x7f090021
+			public const int ck_roomate2 = 2131296289;
 			
 			// aapt resource value: 0x7f09000e
 			public const int clip_horizontal = 2131296270;
@@ -354,8 +363,14 @@ namespace RentSplitter
 			// aapt resource value: 0x7f09000f
 			public const int clip_vertical = 2131296271;
 			
-			// aapt resource value: 0x7f09001d
-			public const int edtName = 2131296285;
+			// aapt resource value: 0x7f09001e
+			public const int edtBillName = 2131296286;
+			
+			// aapt resource value: 0x7f09001f
+			public const int edtCost = 2131296287;
+			
+			// aapt resource value: 0x7f090023
+			public const int edtName = 2131296291;
 			
 			// aapt resource value: 0x7f090010
 			public const int end = 2131296272;
@@ -375,14 +390,14 @@ namespace RentSplitter
 			// aapt resource value: 0x7f090006
 			public const int horizontal = 2131296262;
 			
-			// aapt resource value: 0x7f090029
-			public const int icon = 2131296297;
+			// aapt resource value: 0x7f09002f
+			public const int icon = 2131296303;
 			
-			// aapt resource value: 0x7f090033
-			public const int icon_group = 2131296307;
+			// aapt resource value: 0x7f090039
+			public const int icon_group = 2131296313;
 			
-			// aapt resource value: 0x7f09002c
-			public const int info = 2131296300;
+			// aapt resource value: 0x7f090032
+			public const int info = 2131296306;
 			
 			// aapt resource value: 0x7f09001b
 			public const int italic = 2131296283;
@@ -396,26 +411,29 @@ namespace RentSplitter
 			// aapt resource value: 0x7f090001
 			public const int line3 = 2131296257;
 			
+			// aapt resource value: 0x7f09003e
+			public const int lstRoommateList = 2131296318;
+			
 			// aapt resource value: 0x7f09001c
 			public const int normal = 2131296284;
 			
+			// aapt resource value: 0x7f090034
+			public const int notification_background = 2131296308;
+			
+			// aapt resource value: 0x7f090030
+			public const int notification_main_column = 2131296304;
+			
 			// aapt resource value: 0x7f09002e
-			public const int notification_background = 2131296302;
-			
-			// aapt resource value: 0x7f09002a
-			public const int notification_main_column = 2131296298;
-			
-			// aapt resource value: 0x7f090028
-			public const int notification_main_column_container = 2131296296;
+			public const int notification_main_column_container = 2131296302;
 			
 			// aapt resource value: 0x7f090015
 			public const int right = 2131296277;
 			
-			// aapt resource value: 0x7f09002d
-			public const int right_icon = 2131296301;
+			// aapt resource value: 0x7f090033
+			public const int right_icon = 2131296307;
 			
-			// aapt resource value: 0x7f09002b
-			public const int right_side = 2131296299;
+			// aapt resource value: 0x7f090031
+			public const int right_side = 2131296305;
 			
 			// aapt resource value: 0x7f090016
 			public const int start = 2131296278;
@@ -429,8 +447,8 @@ namespace RentSplitter
 			// aapt resource value: 0x7f090004
 			public const int text2 = 2131296260;
 			
-			// aapt resource value: 0x7f09002f
-			public const int time = 2131296303;
+			// aapt resource value: 0x7f090035
+			public const int time = 2131296309;
 			
 			// aapt resource value: 0x7f090005
 			public const int title = 2131296261;
@@ -438,11 +456,14 @@ namespace RentSplitter
 			// aapt resource value: 0x7f090017
 			public const int top = 2131296279;
 			
-			// aapt resource value: 0x7f090036
-			public const int txtCounter = 2131296310;
+			// aapt resource value: 0x7f09003c
+			public const int txtCounter = 2131296316;
 			
-			// aapt resource value: 0x7f090034
-			public const int txt_Title = 2131296308;
+			// aapt resource value: 0x7f09001d
+			public const int txtTitle = 2131296285;
+			
+			// aapt resource value: 0x7f09003a
+			public const int txt_Title = 2131296314;
 			
 			// aapt resource value: 0x7f090007
 			public const int vertical = 2131296263;
@@ -477,37 +498,43 @@ namespace RentSplitter
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int AddRoommate = 2130903040;
+			public const int AddBills = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int AddRoommate = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int MainMenu = 2130903042;
+			public const int Main = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int notification_action = 2130903043;
+			public const int MainMenu = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int notification_action_tombstone = 2130903044;
+			public const int notification_action = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int notification_template_custom_big = 2130903045;
+			public const int notification_action_tombstone = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int notification_template_icon_group = 2130903046;
+			public const int notification_template_custom_big = 2130903046;
 			
 			// aapt resource value: 0x7f030007
-			public const int notification_template_part_chronometer = 2130903047;
+			public const int notification_template_icon_group = 2130903047;
 			
 			// aapt resource value: 0x7f030008
-			public const int notification_template_part_time = 2130903048;
+			public const int notification_template_part_chronometer = 2130903048;
 			
 			// aapt resource value: 0x7f030009
-			public const int StartPage = 2130903049;
+			public const int notification_template_part_time = 2130903049;
 			
 			// aapt resource value: 0x7f03000a
-			public const int ViewRoommates = 2130903050;
+			public const int StartPage = 2130903050;
+			
+			// aapt resource value: 0x7f03000b
+			public const int ViewBills = 2130903051;
+			
+			// aapt resource value: 0x7f03000c
+			public const int ViewRoommates = 2130903052;
 			
 			static Layout()
 			{

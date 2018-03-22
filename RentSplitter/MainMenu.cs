@@ -15,7 +15,7 @@ namespace RentSplitter {
     public class MainMenu : Activity {
 
         Button btnViewRoomates;
-        Button btnViewBils;
+        Button btnViewBills;
         Button btnAddRoommate;
         Button btnAddBill;
 
@@ -31,8 +31,11 @@ namespace RentSplitter {
 
             };
 
-            btnViewBils = FindViewById<Button>(Resource.Id.btnViewBills);
-            //btnViewBills.Click += (o, e) => SetContentView(Resource.Layout.ViewBills);
+            btnViewBills = FindViewById<Button>(Resource.Id.btnViewBills);
+            btnViewBills.Click += (o, e) =>{ 
+                Intent viewBills = new Intent(this, typeof(ViewBills));
+                StartActivity(viewBills);
+            };
 
             btnAddRoommate = FindViewById<Button>(Resource.Id.btnAddRoommate);
             btnAddRoommate.Click += (o, e) => {
@@ -42,7 +45,10 @@ namespace RentSplitter {
             };
 
             btnAddBill = FindViewById<Button>(Resource.Id.btnAddNewBill);
-            //btnAddBill.Click += (o, e) => SetContentView(Resource.Layout.AddBill);
+            btnAddBill.Click += (o, e)  =>{
+                Intent addBill = new Intent(this, typeof(AddBill));
+                StartActivity(addBill);
+            };
         }
     }
 }

@@ -25,20 +25,19 @@ namespace RentSplitter {
 
             counter = FindViewById<TextView>(Resource.Id.txtCounter);
             btnBack = FindViewById<Button>(Resource.Id.btnGoBack);
-            //lstListOfRoommates = FindViewById<ListView>(Resource.Id.lstListofRoommates);
+            lstListOfRoommates = FindViewById<ListView>(Resource.Id.lstRoommateList);
 
-            
+            //ArrayAdapter<Roommate> adapter = new ArrayAdapter<Roommate>(this, Resource.Layout.ViewRoommates, Household.Instance.Roommates);
+            //lstListOfRoommates.SetAdapter(adapter);
 
 
             foreach (Roommate roommate in Household.Instance.Roommates) {
                 numRoommates++;
                 counter.Text = numRoommates.ToString();
-                TextView nextRoommate = new TextView(this);
-                nextRoommate.Text = roommate.Name;
-                SetContentView(nextRoommate);
+                
             }
 
-            
+
             btnBack.Click += (o, e) => {
                 this.Finish();
             };

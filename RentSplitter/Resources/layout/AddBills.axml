@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="AddBills"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:id="@+id/txtTitle" />
+    <TextView
+        android:text="Please add a Bill"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtBillName"
+        android:text="Enter Bill Name" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtCost"
+        android:text="Enter Bill Cost" />
+    <TextView
+        android:text="Who's Responsible"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+    <CheckBox
+        android:text="Roommate 1"
+        android:layout_width="192.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ck_roomate"
+        android:layout_marginRight="81.5dp" />
+    <CheckBox
+        android:text="Roommate 2"
+        android:layout_width="198.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ck_roomate2" />
+    <Button
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSendBill" />
+</LinearLayout>

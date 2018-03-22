@@ -29,9 +29,10 @@ namespace RentSplitter {
         #endregion
 
         private List<Roommate> roommates = new List<Roommate>();
+        private List<Bill> bills = new List<Bill>();
 
         internal List<Roommate> Roommates { get => roommates; set => roommates = value; }
-        
+        internal List<Bill> Bills { get => bills; set => bills = value; }
 
         public void ListAllRoommates() {
             foreach (Roommate roommate in Roommates) {

@@ -77,13 +77,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddBill.cs" />
     <Compile Include="AddRoommate.cs" />
+    <Compile Include="Bill.cs" />
     <Compile Include="Household.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="MainMenu.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Roommate.cs" />
+    <Compile Include="ViewBills.cs" />
     <Compile Include="ViewRoommates.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -102,6 +105,12 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\ViewRoommates.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\AddBills.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ViewBills.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
