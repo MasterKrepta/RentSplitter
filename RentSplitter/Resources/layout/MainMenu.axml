@@ -4,30 +4,24 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <TextView
-        android:text="Please add a roomamte"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center" />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/edtName"
-        android:text="Enter Name" />
-    <CheckBox
-        android:text="Has Pets"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/ck_hasPets" />
-    <CheckBox
-        android:text="Has Kids"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/ck_hasKids" />
     <Button
-        android:text="Submit"
+        android:text="View Roommates"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnSendRoommate" />
+        android:id="@+id/btnViewRoommates" />
+    <Button
+        android:text="View Bills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnViewBills" />
+    <Button
+        android:text="Add Roomate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddRoommate" />
+    <Button
+        android:text="Add Bill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAddNewBill" />
 </LinearLayout>

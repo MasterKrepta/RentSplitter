@@ -12,6 +12,7 @@ using Android.Widget;
 
 namespace RentSplitter {
     public class Roommate {
+        
         private string name;
         private bool hasKids = false;
         private bool hasPets = false;
@@ -21,5 +22,6 @@ namespace RentSplitter {
         public bool HasKids { get => hasKids; set => hasKids = value; }
         public bool HasPets { get => hasPets; set => hasPets = value; }
         public string MonthlyPayment { get => monthlyPayment; set => monthlyPayment = value; }
+
     }
 }
